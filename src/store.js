@@ -18,7 +18,9 @@ export default new Vuex.Store({
     }
   },
   mutations: {
-    
+    ADD_LINK: (state, link) => {
+      state.links.push(link)
+    }
   },
   actions: {
 
